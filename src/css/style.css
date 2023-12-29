@@ -1,0 +1,59 @@
+/* chivo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/chivo-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* chivo-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/chivo-v18-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* chivo-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/chivo-v18-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* chivo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/chivo-v18-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --primary-ff: "Chivo", sans-serif;
+
+  --color-background: #121725;
+  --color-neutral: #ffffff;
+  --color-accent: #54e6af;
+  --color-paragraph: #c2cbe5;
+
+  --color-input-background: #2c344b;
+  --color-error: #f87171;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-ff);
+}
